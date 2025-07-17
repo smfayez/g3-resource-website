@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font{
+  font-family: "Work Sans", sans-serif;
+}
+/* style-css */
+.bg-color{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.dark-1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+.dark-3{
+    color: #727272;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #FF900E;
+    padding: 15px 24px;
+    color: #ffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+/* nav */
+.header{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   padding: 20px;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    gap: 20px;
+}
+ul>li{
+    list-style: none;
+}
+ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+}
+.container img{
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:576px) {
+    .navbar,
+    .container
+    {
+        flex-direction: column;
+        /* padding: 0; */
+    }
+    ul{
+        margin-top: 10px;
+    }
+    .container img{
+        width: 100%;
+    }
+    
+}
+/* feauters */
+.feauters{
+    margin-top: 85px;
+}
+.feaurtes-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.left{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.left img{
+    width: 300px;
+}
+.right h1{
+    font-size: 1.9rem;
+}
+h1 span{
+    color: #FF900E;
+}
+.right p{
+    margin-top: 14px;
+}
+/* love */
+.love-container{
+    display: flex;
+    gap: 50px;
+}
+.love{
+    margin-top: 130px;
+}
+.love-heading{
+    font-size: 1.9rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.love-describiton{
+    margin-bottom: 30px;
+}
+.card{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card h1{
+    margin-bottom: 10px;
+}
+.love-right img{
+    width: 500px;
+    height: 830px;
+}
+.love-butn{
+    padding: 50px 30px;
+    background-color: #FF900E;
+    border-radius: px;
+    border: none;
+    color: #ffff;
+    margin-top: -2000px;
+    margin-left: -30px;
+}
+.love-butn span{
+    font-size: 1.9rem;
+}
