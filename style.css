@@ -175,7 +175,7 @@ h1 span{
     border: 2px solid #FF900E;
     width: 140px;
     height: 100px;
-    padding: 30px;
+    padding: 50px 30px;
     text-align: center;
 }
 .fact-card img{
@@ -217,7 +217,7 @@ h1 span{
     margin-top: 80px;
 }
 .footer-child{
-    width: 90%;
+    width: 95%;
     background-color: #FFF4E7;
     padding: 30px 30px;
     text-align: center;
