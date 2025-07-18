@@ -60,7 +60,8 @@ ul>li>a{
     text-align: center;
 }
 .container h1{
-    font-size: 1.6em;
+    font-size: 2em;
+    font-weight: 900;
     margin-bottom: 20px;
 }
 .container img{
@@ -121,6 +122,8 @@ h1 span{
     font-size: 1.9rem;
     font-weight: 900;
     margin-bottom: 20px;
+    border-left: 4px solid #FF900E;
+    padding: 10px;
 }
 .love-describiton{
     margin-bottom: 30px;
@@ -149,4 +152,73 @@ h1 span{
 }
 .love-butn span{
     font-size: 1.9rem;
+}
+/* Some Facts */
+.Some-Facts{
+    margin-top: 130px;
+}
+.facts-heading h1{
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.facts-heading p{
+    margin-bottom: 20px;
+}
+.card-container{
+    display: flex;
+    /* gap: 110px; */
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.fact-card{
+    border: 2px solid #FF900E;
+    width: 140px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+}
+.fact-card img{
+    margin-bottom: 7px;
+}
+.fact-card h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.fact-card p{
+    font-weight: bold;
+}
+/* Sponspors */
+.Sponspors{
+    margin-top: 160px;
+}
+.Sponspors-heading{
+    text-align: center;
+}
+.Sponspors-heading h1{
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.Sponspors-heading p{
+    line-height: 26px;
+}
+.images-container{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 20px;
+}
+/* footer */
+.footer{
+    /* margin-top: 80px; */
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.footer-child{
+    width: 90%;
+    background-color: #FFF4E7;
+    padding: 30px 30px;
+    text-align: center;
 }
